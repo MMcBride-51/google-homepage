@@ -1,0 +1,106 @@
+
+body{
+    background-color: white;
+color: black;}
+div {
+    display: block;}
+ul { 
+    list-style-type: none;
+display: block;
+;
+}
+li{display:inline ;
+text-align:-webkit-match-parent;}
+a{
+    text-decoration: none;}
+.left-nav{
+        line-height: 20px;
+    font-size: large;}
+.right-nav{
+        line-height: 20px;
+         font-size: large;}
+.centered{
+    position:absolute;
+    width:auto;
+    height:auto;
+    left:44%;
+    top:32%;
+    margin-left:-50px;
+    margin-top:-50px;
+}
+.footer{
+    position: absolute;
+    top:100vh;
+    transform:translateY(-100%);
+    width: 100%;
+     background-color:#f2f2f2;
+}
+.center{
+    position:absolute;
+    width:auto;
+    height:auto;
+    left:44%;
+    top:32%;
+    margin-left:-50px;
+    margin-top:-50px;}
+#searchbar{
+    position: absolute;
+width: 400px; 
+padding-top: 10px;
+border-radius: 100px;
+font-size: larger;
+top: 42%;
+Left:40%;
+border-width: 1.45px;
+opacity: .50;
+text-align:justify;}
+.advt{margin: 0 5 3px 0;}
+ 
+#search-button{ position: absolute;
+    top: 48%;
+    right: 45%;
+    height: 40px;
+    font-size: 14px;
+    width: 125px;
+border-radius: 5px;
+border-width: 0px;}
+#feelin-lucky{position:absolute;
+    top: 48%;
+    left: 51.5%;
+height: 40px;
+font-size: 14px;
+width: 125px;
+border-radius: 5px;
+border-width: 0px;}
+#feelin-lucky:hover{font-size: 15px; opacity: .85;
+border-width: .5px;}
+#search-button:hover{font-size: 15px; opacity: .85;
+    border-width: .5px;}
+#top-right{ 
+    position: absolute; 
+    top: 13px;
+    left: 1500px;
+    height: auto;
+    width: 450;
+    float: right;  
+    font-size: 13px;
+    margin: 7px 0 0 10px;
+    opacity: .7;
+    }
+#top-left{
+            height: auto;
+            width: 200px;
+            padding-top: 13px;
+            float: left;
+            font-size: 13px;
+            position: absolute;
+            margin: 7px 0 0 5px;
+            opacity: .7;
+        }
+#language{position: absolute;top: 55%; left: 46%;
+width: auto;}
+a:hover{
+          color:black; 
+           font-size: larger;
+           opacity: 0.55;
+        }
